@@ -1,6 +1,6 @@
 # Hi my name is Kevin.
-# I'm a developer.
-# I'm also a breaker of things.
+I'm a developer.
+I'm also a breaker of things.
 
 1. [Day-1-Readings](day1.md)
 
