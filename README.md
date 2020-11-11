@@ -10,6 +10,7 @@ I'm also a breaker of things.
 ***Reminder 2*** : No pain, no gain - Don't think of Marky Mark
 ***Reminder 3*** : Learns from - Remember that you can always learn, and most importantly, learn from your failures. 
 
+# Table of Contents
 1. [Class 01] (markdown.md)
 2. [Class 02] (codersComputer/md)
 3. [Class 03] (git.md)
