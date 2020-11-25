@@ -11,22 +11,12 @@ I'm also a breaker of things.
 ***Reminder 3*** : Learns from - Remember that you can always learn, and most importantly, learn from your failures. 
 
 # Table of Contents
-1. [Class 01] (markdown.md)
-2. [Class 02] (codersComputer/md)
-3. [Class 03] (git.md)
-
-
-
-New Vocabulary
-Professional Competencies
-Proficiencies
-Canvas
-Github
-Slack
-Growth mindset
-Fixed mindset
-Repository
-Markdown
-Web publishing
-Path learning
-Sandbox learning
+1. [Learning Markdown] (day1.md)
+2. [The Coder's Computer] (day2.md)
+3. [Revisions and the Cloud] (day3.md)
+4. [Structure web pages with HTML] (day4.md)
+5. [Design web pages with CSS] (day5.md)
+6. [Activate web pages with JavaScript] (day6.md)
+7. [Programming with JavaScript] (day7.md)
+8. [Juest enough math, logic, and computer architecture] (day8.md)
+9. [Career Coaching] (day9.md)

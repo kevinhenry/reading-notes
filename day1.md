@@ -2,6 +2,30 @@ Read: 01 - Learning Markdown
 [Here is a great reference] (https://guides.github.com/features/mastering-markdown/)
 Markdown is the syntax for writing on the web.
 
+Professional Competencies
+
+Proficiencies
+
+Canvas
+
+Github
+
+Slack
+
+Growth mindset
+
+Fixed mindset
+
+Repository
+
+Markdown
+
+Web publishing
+
+Path learning
+
+Sandbox learning
+
 # text # - is for creating Headings
 ## text ## - is for smaller Headings
 * text * - is for italics

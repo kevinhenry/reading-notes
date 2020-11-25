@@ -1,3 +1,17 @@
+The Coder's Computer
+
+CLI (Command Line Interface)
+
+Terminal
+
+GUI (Graphical User Interface)
+
+IDE
+
+VS Code
+
+Abstraction
+
 #Choosing a Text Editor
 The reading discusses what is a text editor and discusses the key features you should look for in them.
 Code completetion
@@ -34,3 +48,4 @@ rm = remove a file
 rm -r = remove a directory (recursively)
 mkdir = create a new directory
 touch = create a new file (don't forget the extension!)
+
