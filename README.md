@@ -17,6 +17,7 @@ I'm also a breaker of things.
 4. [Structure web pages with HTML](https://github.com/kevinhenry/reading-notes/blob/main/day4.md)
 5. [Design web pages with CSS](https://github.com/kevinhenry/reading-notes/blob/main/day5.md)
 6. [Activate web pages with JavaScript](https://github.com/kevinhenry/reading-notes/blob/main/day6a.md)
+6. [Computer Architechture and Logic](https://github.com/kevinhenry/reading-notes/blob/main/day6b.md)
 7. [Programming with JavaScript](https://github.com/kevinhenry/reading-notes/blob/main/day7.md)
 8. [Juest enough math, logic, and computer architecture](https://github.com/kevinhenry/reading-notes/blob/main/day8.md)
 9. [Career Coaching](https://github.com/kevinhenry/reading-notes/blob/main/day9.md)
