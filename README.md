@@ -2,6 +2,34 @@
 I'm a developer.
 I'm also a breaker of things.
 
+<Code 201 Reading Notes>
+
+# Table of Contents
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+
+
+
+
+
+
+
+
+<Code 102 Reading Notes>
+
 1. [Day-1-Readings](https://github.com/kevinhenry/reading-notes/blob/main/day1.md)
 
 ***Growth mindset*** : **Is believing that you can develop you abilities beyond where they are now through effort and perserverance. It may simply be referred to as a love of learning. I would say it is also a belief that your potential is not limited, but only where you are today and you have the abiltiy go further. It's interesting because my belief while I was serving in the military was always give me more and I won't fail at any mission. We don't call it the same thing, but I cannot shake the similarity.**
