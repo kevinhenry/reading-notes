@@ -2,7 +2,7 @@
 I'm a developer.
 I'm also a breaker of things.
 
-<Code 201 Reading Notes>
+<h1>Code 201 Reading Note</h1>
 
 # Table of Contents
 1.
@@ -28,7 +28,7 @@ I'm also a breaker of things.
 
 
 
-<Code 102 Reading Notes>
+<h1>Code 102 Reading Notes</h1>
 
 1. [Day-1-Readings](https://github.com/kevinhenry/reading-notes/blob/main/day1.md)
 
