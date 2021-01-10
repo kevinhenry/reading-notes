@@ -6,7 +6,7 @@ I'm a developer.
 
 ## Table of Contents
 
-1. [Introductory HTML and JavaScrip](https://github.com/kevinhenry/reading-notes/blob/main/class-01.md)
+1. [Introductory HTML and JavaScript](https://github.com/kevinhenry/reading-notes/blob/main/class-01.md)
 2. [Read 02]
 3. [Read 03]
 4. [Read 04]
