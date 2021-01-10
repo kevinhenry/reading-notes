@@ -6,7 +6,7 @@ I'm also a breaker of things.
 
 <h2># Table of Contents</h2>
 
-1.
+1. [Introductory HTML and JavaScrip](https://github.com/kevinhenry/reading-notes/blob/main/class-01.md)
 2.
 3.
 4.
