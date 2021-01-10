@@ -2,9 +2,9 @@
 I'm a developer.
 I'm also a breaker of things.
 
-## Code 201 Reading Notes
+# Code 201 Reading Notes
 
-# Table of Contents
+## Table of Contents
 
 1. [Introductory HTML and JavaScrip](https://github.com/kevinhenry/reading-notes/blob/main/class-01.md)
 2. [Read 02]
@@ -24,9 +24,9 @@ I'm also a breaker of things.
 
 
 
-## Code 102 Reading Notes
+# Code 102 Reading Notes
 
-# Table of Contents
+## Table of Contents
 1. [Learning Markdown](https://github.com/kevinhenry/reading-notes/blob/main/day1.md)
 2. [The Coder's Computer](https://github.com/kevinhenry/reading-notes/blob/main/day2.md)
 3. [Revisions and the Cloud](https://github.com/kevinhenry/reading-notes/blob/main/day3.md)
