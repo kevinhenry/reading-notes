@@ -1,8 +1,8 @@
-# Hi my name is Kevin.
+# Hi, my name is Kevin.
 I'm a developer.
-I'm also a breaker of things.
+**I'm also a breaker of things.**
 
-# Code 201 Reading Notes
+# **Code 201 _Reading Notes_**
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ I'm also a breaker of things.
 
 
 
-# Code 102 Reading Notes
+# **Code 102 _Reading Notes_**
 
 ## Table of Contents
 1. [Learning Markdown](https://github.com/kevinhenry/reading-notes/blob/main/day1.md)
