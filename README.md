@@ -4,7 +4,8 @@ I'm also a breaker of things.
 
 <h1>Code 201 Reading Note</h1>
 
-# Table of Contents
+<h2># Table of Contents</h2>
+
 1.
 2.
 3.
