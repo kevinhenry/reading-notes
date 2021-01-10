@@ -2,42 +2,29 @@
 I'm a developer.
 I'm also a breaker of things.
 
-<h1>Code 201 Reading Note</h1>
+## Code 201 Reading Notes
 
-<h2># Table of Contents</h2>
+# Table of Contents
 
 1. [Introductory HTML and JavaScrip](https://github.com/kevinhenry/reading-notes/blob/main/class-01.md)
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
+2. [Read 02]
+3. [Read 03]
+4. [Read 04]
+5. [Read 05]
+6. [Read 06]
+7. [Read 07]
+8. [Read 08]
+9. [Read 09]
+10. [Read 10]
+11. [Read 11]
+12. [Read 12]
+13. [Read 13]
+14. [Read 14]
+15. [Read 15]
 
 
 
-
-
-
-
-
-<h1>Code 102 Reading Notes</h1>
-
-1. [Day-1-Readings](https://github.com/kevinhenry/reading-notes/blob/main/day1.md)
-
-***Growth mindset*** : **Is believing that you can develop you abilities beyond where they are now through effort and perserverance. It may simply be referred to as a love of learning. I would say it is also a belief that your potential is not limited, but only where you are today and you have the abiltiy go further. It's interesting because my belief while I was serving in the military was always give me more and I won't fail at any mission. We don't call it the same thing, but I cannot shake the similarity.**
-
-***Reminder 1*** : Embrace - Always embrace challenges and be ready for the opportunity
-***Reminder 2*** : No pain, no gain - Don't think of Marky Mark
-***Reminder 3*** : Learns from - Remember that you can always learn, and most importantly, learn from your failures. 
+## Code 102 Reading Notes
 
 # Table of Contents
 1. [Learning Markdown](https://github.com/kevinhenry/reading-notes/blob/main/day1.md)
