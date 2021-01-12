@@ -7,7 +7,7 @@ I'm a developer.
 ## Table of Contents
 
 1. [Introductory HTML and JavaScript](https://github.com/kevinhenry/reading-notes/blob/main/class-01.md)
-2. [Read 02]
+2. [Basics of HTML, CSS, & JS](https://github.com/kevinhenry/reading-notes/blob/main/class-02.md)
 3. [Read 03]
 4. [Read 04]
 5. [Read 05]
