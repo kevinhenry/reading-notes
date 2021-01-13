@@ -5,28 +5,28 @@
 Structural markup - HTML elements describe the structure or the page
 Heading /<h1>
 Subheadings /<h2>
-Paragraphs <p>
-Bold <b>
-Italic <i> - technical terms, names of ships, foreign words, thoughts, and other terms would usually be italicized 
-Superscript <sup> - such as the suffixes of dates or powers
-Subscript <sub> - foot notes or chemical formulas
+Paragraphs /<p>
+Bold /<b>
+Italic /<i> - technical terms, names of ships, foreign words, thoughts, and other terms would usually be italicized 
+Superscript /<sup> - such as the suffixes of dates or powers
+Subscript /<sub> - foot notes or chemical formulas
 White Space /  / - when the browser comes across two more more spaces next to each other, it only displays one space. If it comes across a line break, it treats it as a single space too
-Line Breaks - <br /> - IF you want to add a line break inside the middle of a paragraph, use the line break tag <br />
-Horizontal Rules - <hr /> - adding a horizontal rule between sections will create a break bewtween themes
+Line Breaks - /<br /> - IF you want to add a line break inside the middle of a paragraph, use the line break tag /<br />
+Horizontal Rules - /<hr /> - adding a horizontal rule between sections will create a break bewtween themes
   
 Semantic markup - HTML elements also provide semantic information, such as where emphasis should be placed in a sentence, that somehting has a quotation and who said it, the meaning of acronyms and more. They are not intended to affect the structure of the web page 
-Strong <strong> - browsers show the contents of a strong element as bold
-Emphasis <em> - emphasis that subtly changes the meaning of a sentence. browsers show in italic
-Blockquote <blockquote> - used for longer quotes that take up a whole paragraph. The <p> element is still used inider the blockquote. Browsers will tend to indent the contents.
-Abbreviations <abbr> - used for abbreviations or acronyms:
+Strong /<strong> - browsers show the contents of a strong element as bold
+Emphasis /<em> - emphasis that subtly changes the meaning of a sentence. browsers show in italic
+Blockquote /<blockquote> - used for longer quotes that take up a whole paragraph. The /<p> element is still used inider the blockquote. Browsers will tend to indent the contents.
+Abbreviations /<abbr> - used for abbreviations or acronyms:
   /<p><acronym title="National Aeronautics and Space Administration">NASA</acronym> do some crazy space stuff.</p>
-Citation <cite> - indicate where the citation is from. Browser will render the <cite> element in italics
-Definitions <dfn> - indicate the defining instance of a new term. Some browsers will show the content of <dfn> in italics
-Address <address> browsers often display <address> contents in italics
+Citation /<cite> - indicate where the citation is from. Browser will render the /<cite> element in italics
+Definitions /<dfn> - indicate the defining instance of a new term. Some browsers will show the content of <dfn> in italics
+Address /<address> browsers often display <address> contents in italics
 Changes to Content
-  Insert <ins> - show content that has been inserted into a document. Content is usually underlined
-  Delete <del> - show content that has been deleted from a document. Content usually has a line through it
-  Strikethrough <s> - indicates something is no longer accurate. Will be displayed with a line through the center
+  Insert /<ins> - show content that has been inserted into a document. Content is usually underlined
+  Delete /<del> - show content that has been deleted from a document. Content usually has a line through it
+  Strikethrough /<s> - indicates something is no longer accurate. Will be displayed with a line through the center
 
 <h1>Chapter 10: “Introducing CSS” (pp.226-245)<h1>
   
