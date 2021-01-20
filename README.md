@@ -9,7 +9,7 @@ I'm a developer.
 1. [Introductory HTML and JavaScript](https://github.com/kevinhenry/reading-notes/blob/main/class-01.md)
 2. [Basics of HTML, CSS, & JS](https://github.com/kevinhenry/reading-notes/blob/main/class-02.md)
 3. [HTML Lists, CSS Boxes, JS Control Flow](https://github.com/kevinhenry/reading-notes/blob/main/class-03.md)
-4. [Read 04]
+4. [HTML Links, JS Functions, and Into to CSS Layout](https://github.com/kevinhenry/reading-notes/blob/main/class-04.md)
 5. [Read 05]
 6. [Read 06]
 7. [Read 07]
