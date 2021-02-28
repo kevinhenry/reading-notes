@@ -69,6 +69,7 @@ Open a new window: `<a href="www.url.com" target="_blank">TEXT</a>`
 `function getArea(width, height){ return width * height; }` width and height in parentheses are the parameters
 
 `getArea(3,5);`
+
 You can get single values out of a function or multiple
 
 
