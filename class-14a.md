@@ -108,8 +108,8 @@ For a transition to take place, an element must have a change in state, and diff
 Customizing Animations - provide the ability to further customize an element’s behavior, including the ability to declare the number of times an animation runs, as well as the direction in which an animation completes 
 
 
-## 8 Simple CSS3 Transitions That Will WOW Your Users Article
-[8 Simple CSS3 Transitions That Will WOW Your Users Article](https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users)
+## 8 Simple CSS3 Transitions that will Wow Your Users Article
+[8 Simple CSS3 Transitions that will Wow Your Users](https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users)
 
 CSS3 has introduced countless possibilities for UX designers, and the best thing about them is that the coolest parts are really simple to implement.
 
@@ -191,3 +191,4 @@ CSS3 has introduced countless possibilities for UX designers, and the best thing
 [404 CodePen](https://codepen.io/kieranfivestars/pen/MYdQxX)
 
 [Pure CSS Bounce Animation CodePen](https://codepen.io/dp_lewis/pen/gCfBv)
+
