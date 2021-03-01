@@ -19,9 +19,8 @@ I'm a developer.
 11. [Assorted Topics](https://github.com/kevinhenry/reading-notes/blob/main/class-11.md)
 12. [Chart.js and Canvas](https://github.com/kevinhenry/reading-notes/blob/main/class-12.md)
 13. [Local Storage](https://github.com/kevinhenry/reading-notes/blob/main/class-13.md)
-14. [What Google Learned About Teams](https://github.com/kevinhenry/reading-notes/blob/main/class-14b.md)
-15. [CSS Transforms, Transitions, and Animations](https://github.com/kevinhenry/reading-notes/blob/main/class-14a.md)
-
+14. [CSS Transforms, Transitions, and Animations](https://github.com/kevinhenry/reading-notes/blob/main/class-14a.md)
+15. [What Google Learned About Teams](https://github.com/kevinhenry/reading-notes/blob/main/class-14b.md)
 
 
 # **Code 102 _Reading Notes_**
