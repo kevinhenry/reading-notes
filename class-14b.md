@@ -1,4 +1,4 @@
-# Read: 14 - What Google Learned About Teams
+# Read: 14b - What Google Learned About Teams
 
 The article starts off about Julia's experience in an MBA program with study groups.
 
