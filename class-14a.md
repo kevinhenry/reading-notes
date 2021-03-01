@@ -2,7 +2,8 @@
 
 [CSS Transforms Article](https://learn.shayhowe.com/advanced-html-css/css-transforms/)
 
-## Transform Syntax - the transform property followed by the value. Specifies the transform type followed by a specific amount inside parentheses
+## Transform Syntax
+The transform property followed by the value. Specifies the transform type followed by a specific amount inside parentheses
 
 ```
 div {
@@ -62,7 +63,8 @@ Using the `translateX` value will change the position of an element on the horiz
 ## Combining Transforms
 It is common for multiple transforms to be used at once, rotating and scaling the size of an element at the same time for example. In this event multiple transforms can be combined together
 
-## Transform Origin - dead center of an element, both 50% horizontally and 50% vertically
+## Transform Origin
+The dead center of an element, both 50% horizontally and 50% vertically
 
 ## Perspective
 - In order for three-dimensional transforms to work the elements need a perspective from which to transform
@@ -183,14 +185,9 @@ CSS3 has introduced countless possibilities for UX designers, and the best thing
  
 
 [6 Buttons Animated CodePen](https://codepen.io/retyui/pen/ByoaXV)
- 
 
 [CSS3 KeyFrames Animation CodePen](https://codepen.io/akshaychauhan/pen/oAfae)
- 
 
 [404 CodePen](https://codepen.io/kieranfivestars/pen/MYdQxX)
- 
 
 [Pure CSS Bounce Animation CodePen](https://codepen.io/dp_lewis/pen/gCfBv)
-
-
