@@ -10,17 +10,17 @@ I'm a developer.
 2. [Basics of HTML, CSS, & JS](https://github.com/kevinhenry/reading-notes/blob/main/class-02.md)
 3. [HTML Lists, CSS Boxes, JS Control Flow](https://github.com/kevinhenry/reading-notes/blob/main/class-03.md)
 4. [HTML Links, JS Functions, and Into to CSS Layout](https://github.com/kevinhenry/reading-notes/blob/main/class-04.md)
-5. [Read 05]
-6. [Read 06]
-7. [Read 07]
-8. [Read 08]
-9. [Read 09]
-10. [Read 10]
-11. [Read 11]
-12. [Read 12]
-13. [Read 13]
-14. [Read 14]
-15. [Read 15]
+5. [HTML Images; CSS Color & Text](https://github.com/kevinhenry/reading-notes/blob/main/class-05.md)
+6. [Problem Domain, Objects, and the DOM](https://github.com/kevinhenry/reading-notes/blob/main/class-06.md)
+7. [HTML Tables, JS Constructor Functions](https://github.com/kevinhenry/reading-notes/blob/main/class-07.md)
+8. [More CSS Layout](https://github.com/kevinhenry/reading-notes/blob/main/class-08.md)
+9. [Forms and Events](https://github.com/kevinhenry/reading-notes/blob/main/class-09.md)
+10. [JS Debugging](https://github.com/kevinhenry/reading-notes/blob/main/class-10.md)
+11. [Assorted Topics](https://github.com/kevinhenry/reading-notes/blob/main/class-11.md)
+12. [Chart.js and Canvas](https://github.com/kevinhenry/reading-notes/blob/main/class-12.md)
+13. [Local Storage](https://github.com/kevinhenry/reading-notes/blob/main/class-13.md)
+14. [What Google Learned About Teams](https://github.com/kevinhenry/reading-notes/blob/main/class-14b.md)
+15. [CSS Transforms, Transitions, and Animations](https://github.com/kevinhenry/reading-notes/blob/main/class-14a.md)
 
 
 
