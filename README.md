@@ -3,6 +3,8 @@ I'm a developer.
 **I'm also a breaker of things.**
 **This is a collection of my reading notes taken along my journey in learning to code**
 
+## Things I want to know more about
+
 # **Code 401 - Advanced Software Development**
 
 # **Code 301 - Intermediate Software Development**
