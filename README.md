@@ -8,7 +8,7 @@ I'm a developer.
 # **Code 301 - Intermediate Software Development**
 
 
-14. [Readings: Diversity & Inclusion in the Tech Industry](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class-14.md)
+14. [Readings: Diversity & Inclusion in the Tech Industry](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2014)
 
 
 # **Code 201 - Foundations of Software Development**
