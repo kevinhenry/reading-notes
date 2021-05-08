@@ -9,7 +9,7 @@ I'm a developer.
 
 # **Code 301 - Intermediate Software Development**
 
-
+13. [Readings: CRUD](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2013)
 14. [Readings: Diversity & Inclusion in the Tech Industry](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2014)
 
 
