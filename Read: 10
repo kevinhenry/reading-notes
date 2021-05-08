@@ -1,0 +1,77 @@
+# Read: 10 - In memory storage
+
+Reading
+
+[Understanding the JavaScript Call Stack](https://medium.freecodecamp.org/understanding-the-javascript-call-stack-861e41ae61d4)
+
+What is a ‘call’?
+How many ‘calls’ can happen at once?
+
+What does LIFO mean?
+
+Draw an example of a call stack and the functions that would need to be invoked to generate that call stack.
+
+What causes a Stack Overflow?
+JavaScript error messages
+
+What is a ‘refrence error’?
+
+What is a ‘syntax error’? Syntax has not been followed 
+| ReferenceError | Tried to reference a variable that is not declared/within scope |
+
+What is a ‘range error’?
+
+What is a ‘tyep error’?
+
+What is a breakpoint?
+
+What does the word ‘debugger’ do in your code?
+
+Additional Resources
+
+JavaScript errors reference on MDN
+
+---
+
+#### Properties of an Error Object
+| Property | Description |
+| -------- | ----------- |
+| name | type of error |
+| message	| Description |
+| fileNumber | name of the javascript file |
+| lineNumber | line number of error |
+
+---
+
+#### Types of Error Objects
+| Object | Description |
+| ------ | ----------- |
+| Error	| Generic error - the other errors are all based on this error |
+| SyntaxError |	Syntax has not been followed |
+| ReferenceError | Tried to reference a variable that is not declared/within scope |
+| TypeError	| An unexpected data type that cannot be coerced |
+| RangeError | Numbers not in a acceptable range |
+| URIError | encodeURI(), decodeURI(), similar methods used incorrectly |
+| EvalError	| eval() function used incorrectly |
+
+---
+
+## How to Deal with Errors
+- Debug the script to fix errors
+  - Where is the problem
+  - What exactly is the problem
+- Handle errors gracefully
+
+## More Console Methods
+`console.log` - basic
+`console.info()` - can be used for general information
+`console.warn()` - can be used for warnings
+`console.error()` - can be used to hold errors
+`console.group()` - groups messages together
+`console.table()` - outputs a table showing objects and arrays
+`console.assert()` - test if a condition is met and write to the console only if evaluates to false
+
+## Breakpoints
+- Pause the execution of a script on any line using breakpoints
+- Set multiple breakpoints and step through them one by one to see were a problem might occur
+- Conditional breakpoints should be triggered only if a condition you specify is met
