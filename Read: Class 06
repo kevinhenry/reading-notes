@@ -1,0 +1,88 @@
+# Read: Class 06 - NODE.JS
+
+<h1>Reading</h1>
+
+# [An Introduction to Node.js on sitepoint.com](https://www.sitepoint.com/an-introduction-to-node-js)
+
+Node.js Or Node
+
+Node.js is a JavaScript runtime
+
+- Few other definitions:
+  - JavaScript runtime built on Chrome's V8 JavaScript engine (nodejs.org)
+  - An event-based, non-blocking, asynchronous I/O runtime (Stack Overflow)
+
+- Installing Node - you can go to the office site and grab the Node binaries for your system
+
+  - Or used a version manager (like a nvm or node version manager)
+
+- Run `node -v` in the terminal to check if you have it installed
+
+- Running in terminal allows for you to runscript
+
+Example
+
+- Create a new file called `hello.js`
+
+- enter code
+
+`console.log("Hello, World!");`
+
+- then run the following command `node hello.js`
+
+  - this should display what you console.log'd
+
+### Package Manager
+
+Node comes with a package manager called npm
+
+npm is also the worlds largest software registry
+
+### Node.js uses
+
+Installing and running various build tools
+
+- designed to automate the process of developing a JS app
+
+Running JavaScript on the server
+
+- Event-driven
+
+Node.js can be used as a scripting language to automate reptitive or error prone tasks on your computer
+
+It can be used to write your own command line tool
+
+Node.js can be used to build cross-platform desktop apps
+
+Node.js can be used to create robots!
+
+# [6 Reasons for Pair Programming](https://www.codefellows.org/blog/6-reasons-for-pair-programming/)
+
+"Two heads are better than one!"
+
+Roles:
+- Driver - the one that does all the typing and writing the code
+- Navigator - guides driver with thinking of the big picture, what should happen, scans for typos, and does researching and looks up solutions.
+
+### Why pair program?
+Explaining out loud what code should do
+Listening to others' guidance
+Read code others have written
+Writing code themselves.
+
+### Benifits
+1. Greater efficiency
+2. Engaging collab
+3. Learn from fellow students
+4. Social skills
+5. Job interview prep
+6. Work environment readiness
+
+
+<h1>Bookmark/Skim</h1>
+
+# [Geocoding API Docs](https://locationiq.com/)
+
+# [Axios docs](https://www.npmjs.com/package/axios)
+
+# [MDN async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
