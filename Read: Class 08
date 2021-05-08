@@ -1,0 +1,113 @@
+# Read: Class 08 - Readings: APIs
+
+<h1>Reading</h1>
+
+*** [API Design Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+
+
+What does REST stand for? Representational State Transfer
+REST APIs are designed around a ____. Resources
+
+What is an identifer of a resource? Give an example. A URI that uniquely identifies that resource. For example, the URI for a particular customer order 
+
+What are the most common HTTP verbs? GET, POST, PUT, PATCH, and DELETE
+
+What should the URIs be based on? based on nouns (the resource)
+
+Give an example of a good URI. URI might represent the collection of orders `https://adventure-works.com/orders`
+
+What does it mean to have a ‘chatty’ web API? Is this a good or a bad thing? web APIs that expose a large number of small resources. Typically a bad thing because they impose load on a web server
+
+What status code does a successful GET request return?
+HTTP status code 200 (OK)
+
+What status code does an unsuccessful GET request return?
+404 (Not Found)
+
+What status code does a successful POST request return?
+HTTP status code 201 (Created)
+
+What status code does a successful DELETE request return?
+HTTP status code 204
+
+
+Request
+
+can be made by invoking request object, then calling .then() (or .end() or await) to send the request
+
+```
+request
+  .get('/search')
+  .then(res => {
+      // res.body, res.headers, res.status
+  })
+  .catch(err => {
+      // err.message, err.response
+  });
+```
+
+GET
+
+```
+request
+  .get('https://example.com/search')
+  .then(res => {
+
+  });
+```
+
+DELETE
+
+can be called as `.del()`
+
+## Bookmark/Skim
+[RegExr](https://regexr.com/)
+
+[Regex Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
+
+[Regex 101](https://regex101.com/)
+
+Character classes
+
+```
+.	any character except newline
+\w\d\s	word, digit, whitespace
+\W\D\S	not word, digit, whitespace
+[abc]	any of a, b, or c
+[^abc]	not a, b, or c
+[a-g]	character between a & g
+```
+
+Anchors
+
+```
+^abc$	start / end of the string
+\b\B	word, not-word boundary
+```
+
+Escaped Characters
+
+```
+\.\*\\	escaped special characters
+\t\n\r	tab, linefeed, carriage return
+```
+
+Groups and Lookaround
+
+```
+(abc)	capture group
+\1	backreference to group #1
+(?:abc)	non-capturing group
+(?=abc)	positive lookahead
+(?!abc)	negative lookahead
+```
+
+Quantifiers and Alternation
+
+```
+a*a+a?	0 or more, 1 or more, 0 or 1
+a{5}a{2,}	exactly five, two or more
+a{1,3}	between one & three
+a+?a{2,}?	match as few as possible
+ab|cd	match ab or cd
+```
