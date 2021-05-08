@@ -1,0 +1,117 @@
+# Read: Class 13 - Readings: CRUD
+
+<h1>CRUD</h1>
+
+*** [Status Codes Based On REST Methods](https://www.moesif.com/blog/technical/api-design/Which-HTTP-Status-Code-To-Use-For-Every-CRUD-App/)
+
+CRUD - The CRUD model defines the most basic API actions for persistent storage. They make up most of API endpoints.
+
+Create - Usually implemented via HTTP `POST` method. In RESTful APIS, these endpoints are used to creat new resources or access tokens.
+
+`Read`
+`Update`
+`Delete`
+
+#### CRUD
+| CRUD | HTTP Method | Path | Desc | Mongoose Methods |
+|----- | ----------- | -----| ---- | -----------------|
+| R |	GET |	/cats | get all cats | Cat.find() |
+| R |	GET | /cats/:id | get one cat | Cat.find ({_id: id}) |
+| C | POST | /cats | create on cat | new Cat() ... .save() |
+| D | DELETE | /cats/:id | delete one cat | Cat.findAndDelete |
+| U | PUT | /cats/:id | update one cat | Cat.find... .save (make changes) |
+|   | R   |    E     |    ST  |    |
+
+Cat is the Mongoose model
+
+### HTTP Status Codes
+First digit defines the class of the status and comes with a reason phrase. The code is for programmatic recognition the phrase is for us to understand what happened.
+
+In your own words, describe what each group of status code represents:
+
+100’s = Informational status codes. Typically tell the client that the header part of the request has been recieived and the server will try to compy.
+
+200’s = Success codes. Tell the client that thte request was accepted. It doesn't mean the request was successfully porcessed, but that it met all validation requirements at the time fo sending. Ex: 202 - Asynchronous processing of a request
+
+300’s = Redirection codes. Tells client that the requested resources isn't available at the expected location anymore. This may be temp or perm, but the client must issue a request to a new location.
+
+400’s = Client error codes. All about invalid requests a client sent to a server. Causes: timesouts, wrong URI, missing auth, and etc. Client is sending incorrect input and should confirm the input parameters are correct before retrying.
+
+500’s = Server error codes. Often indicating problems with overwhelmed servers or unreachable servers behind proxies. Sometimes directly related to client requests that trigger error exceptions on the server. Can be temp or permanent. Usually best to retry same requests. 
+
+What is a status code 202? 02 - Asynchronous processing of a request
+
+What is a status code 308? Permanent Redirect  - Indicates that the resource will now be availabile at a new URL and client should directly access the new URL in the future.
+
+What code would you use if an update didn’t return data to a client? 204 No Content
+
+What code would you use if a resource used to exist but no longer does? 410 Gone
+
+What is the ‘Forbidden’ status code? 403 - The client has authorized or doesn't need to authorize, but does not have permissions to access the resource.
+
+
+## [MDN Web Docs - Sending Form Data](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
+
+What happens when a user submits a form?
+
+Client/Server Architecture
+
+The web uses a client/server architecture
+
+- client or web browser sends a request to a server using the HTTP protocol
+
+- Server answers the request using the same protocol
+
+### Client Side
+
+The `<form>` element defines how the data will be sent
+
+The two most important attributes are `action` and `method`
+
+### The `action` Attribute
+
+The `action` defines where the data gets sent
+- must be a valid relative path or absolute `URL`
+
+- if`action` is not provided, data will be sent to the `URL` of the page containing the form
+
+Examples: data is sent to an absolute URL - `https://example.com`:
+
+`<form action="https://example.com>`
+
+Use a relative URL = the data is sent to a different URL on the same origin:
+`<form action="/somewhere_else>`
+
+When specified with no attributes, as below, `<form>` data os semt tp tje same page the the form is present:
+
+`<form>`
+
+### The `method` Attribute
+
+The `method` attribute defines how the data is sent
+
+The `GET method` - used by browser to ask the server to send back a given resource
+
+The `POST method` - used by browser to talk to the server when asking for a response that takes into account the data provided in the body of the `HTTP` request.
+
+### Server Side
+
+No matter which method used, the server receives a string that will be parsed in order to get the data as a list of key/value pairs
+
+### Security
+
+When you send data to a server, you need to consider security because `HTML` forms are the most common server attack vectors
+
+
+[Build A REST API With Node.js, Express, & MongoDB - Quick](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
+
+[Direct Link:](https://www.youtube.com/watch?v=fgTGADljAeg)
+
+1. Why do we need to pull our MongoDB database string out of our server and put it into our .env? We don't want it visible when we deploy the site.
+2. What is middleware? Code that runs when the server gets a request, but before it gets passed to our routes.
+3. What does `app.use(express.json())` do? - Makes sure our app can handle post requests. Specifically, make sure that on post requests, we can access the data in the request body.
+4. What does the `/:id` mean in a route? It sets it as a parameter.
+5. What is the difference beween `PUT` and `PATCH`? PUT updates all the information at once. PATCH only updates what the user passes.
+6. How do you make a defalut value in a schema?
+7. What does a `500` error status code mean? Entirely our fault and not the user.
+8. What is the difference between a status `200` and a status `201`? 200 - Everything was successful. 201 - Successfully created an object.
