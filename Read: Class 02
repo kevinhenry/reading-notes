@@ -1,0 +1,53 @@
+# Read: Class 02 - Readings: State and Props
+
+<h1>Reading</h1>
+
+# [React Docs - State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+
+1. Based off the diagram, what happens first, the ‘render’ or the ‘componentDidMount’? render
+2. What is the very first thing to happen in the lifecycle of React? constructor is mounted
+3. Put the following things in the order that they happen: 
+
+constructor
+render
+React Updates
+componentDidMount
+componentWillUnmount
+
+4. What does componentDidMount do? This method allows you to clean up the DOM and netwrok requests/ subscriptions.
+
+## [React Bootstrat Documentation](https://react-bootstrap.github.io/)
+
+## [Netlify](https://www.netlify.com/)
+
+## [React State Vs Props](https://www.youtube.com/watch?v=IYvD9oBCuJI)
+
+What types of things can you pass in the props?
+
+What is the big difference between props and state?
+
+When do we re-render our application?
+
+What are some examples of things that we could store in state? Property values
+
+
+<h1>Bookmark/Skim</h1>
+
+[React Docs - State and Lifecycle
+](https://reactjs.org/docs/state-and-lifecycle.html)
+
+[React Docs - handling events
+](https://reactjs.org/docs/handling-events.html)
+
+Handling events with React are similar to handling events on DOM elements
+- React events are named using camelCase rather than lowercase
+- With JSX you pass a function as the event handler, rather than a string
+
+Example Code
+```
+<button onclick={activateLasers}>
+  Activate Lasers
+</button>
+```
+
+[React Tutorial through ‘Developer Tools’](https://reactjs.org/tutorial/tutorial.html)
