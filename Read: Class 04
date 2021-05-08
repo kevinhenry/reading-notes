@@ -1,0 +1,40 @@
+# Read: Class 04 - React and Forms
+
+<h1>Reading</h1>
+
+# [React Docs - Forms](https://reactjs.org/docs/forms.html)
+
+HTML form elements such as `<input>, <textarea>, and <select>` typically maintain their own state and update it based on user input. In React, mutable state is typically kept in the state property of components, and only updated with `setState()`.
+
+We can combine the two by making the React state is the "single source of truth". Then the React component that renders the form also controls what happens in the form on user input.
+
+
+### The `<textarea>` Tag
+
+In HTML `<textarea>` defines its text by its children
+
+```
+<textarea>
+  Hello there, this is some text in a text area
+</textarea>
+```
+
+In React, a `<textarea>` uses a `value` attribute instead.
+
+Notice that `value` can be put in state `this.state.value`
+
+### The `<select>` Tag
+
+In HTML, `<select>` creates a drop-down list
+
+In React, instead of using this `<select>` attibute, uses `value` attribute on root `<select>` tag
+
+### Handling Multiple Inputs
+
+Handling multiple controlled `input` elements, add `name` attribute so the handler function can choose what to do based on the value `event.target.name`
+
+Name can be set in state to make it dynamic
+
+<h1>Bookmark/Skim</h1>
+
+# [React Bootstrap - Forms](https://react-bootstrap.github.io/components/forms/)
