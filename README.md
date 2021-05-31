@@ -7,10 +7,41 @@ I'm a developer.
 
 # **Code 401 - Advanced Software Development**
 
+## Table of Contents
+
+1. [Topic](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+2. [Testing and Modules](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+3. [FileIO & Exceptions](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+4. [Topic](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+5. [Implementation: Linked Lists](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+6. [Game of Greed 1](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+7. [Game of Greed 2](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+8. [Game of Greed 3](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+9. [Game of Greed 4](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+10. [Implementation: Stacks and Queues](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+11. [Data Analysis](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+12. [Topic](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+13. [Topic](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+14. [Data Visualization](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+
 # **Code 301 - Intermediate Software Development**
 
-13. [Readings: CRUD](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2013)
-14. [Readings: Diversity & Inclusion in the Tech Industry](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2014)
+## Table of Contents
+
+1. [Readings: Introduction to React and Components](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
+2. [State and Props](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2002)
+3. [Passing Functions as Props](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2013)
+4. [React and Forms](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2004)
+5. [Putting it all together](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2005)
+6. [NODE.JS](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2006)
+7. [REST](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2007)
+8. [APIs](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2008)
+9. [FUNCTIONAL PROGRAMMING](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2013)
+10. [In memory storage](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2013)
+11. [Authentication](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2013)
+12. [Mongo and Mongoose](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2012)
+13. [CRUD](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2013)
+16. [Diversity & Inclusion in the Tech Industry](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2014)
 
 
 # **Code 201 - Foundations of Software Development**
