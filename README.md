@@ -1,11 +1,11 @@
-# Hi, my name is Kevin.
+# Reading Notes
+Hi, my name is Kevin.
 I'm a developer.
 **I'm also a breaker of things.**
-**This is a collection of my reading notes taken along my journey in learning to code**
 
-## Things I want to know more about
+**This is a collection of my reading notes taken along my journey in learning to code with CodeFellows**
 
-# **Code 401 - Advanced Software Development**
+## **Code 401 - Advanced Software Development**
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ I'm a developer.
 13. [Topic](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
 14. [Data Visualization](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2001)
 
-# **Code 301 - Intermediate Software Development**
+## **Code 301 - Intermediate Software Development**
 
 ## Table of Contents
 
@@ -44,7 +44,7 @@ I'm a developer.
 16. [Diversity & Inclusion in the Tech Industry](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2014)
 
 
-# **Code 201 - Foundations of Software Development**
+**Code 201 - Foundations of Software Development**
 
 ## Table of Contents
 
@@ -65,7 +65,7 @@ I'm a developer.
 15. [What Google Learned About Teams](https://github.com/kevinhenry/reading-notes/blob/main/class-14b.md)
 
 
-# **Code 102 - Intro to Software Development**
+## **Code 102 - Intro to Software Development**
 
 ## Table of Contents
 1. [Learning Markdown](https://github.com/kevinhenry/reading-notes/blob/main/day1.md)
