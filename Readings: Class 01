@@ -79,7 +79,7 @@ int Fibonacci(int number)
 
 ### Logarithms... I need to learn more about these or at least find a better explaination...
 
-
+O(log N) - iterative halving of data sets that produces a growth curve peaking at the beginning and slowly flattening out as the size of data sets increase.
 
 ## Additional Resources
 [Season 1, Episode 6, A friendly intro to Big O Notation](https://www.codenewbie.org/basecs/8)
