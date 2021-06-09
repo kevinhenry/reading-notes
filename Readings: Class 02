@@ -6,12 +6,97 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ## Reading
 [In Tests We Trust - TDD with Python](https://code.likeagirl.io/in-tests-we-trust-tdd-with-python-af69f47e6932)
+
+
+This was taken from a talk during Python Nodeste 2017.
+
+Unit tests are some pieces of code to exercise the input, output, and the code's behavior. They can be written at anytime.
+
+Test-Driven Development is a strategy thinking and writing iwth the test first.
+
+Unit tests: 
+Test file name should follow thje same name of module name: gender.py  should have a test_gender.py
+
+```
+mymodule/
+  - module.py
+  - another_folder/
+  - - another_module.py
+tests/
+  - test_module.py
+  - another_folder/
+  - - test_another_module.py
+```
+
+Think about the structure. Widely used convention is AAA: Arrange, Act, and Assert.
+
+Arrange: organize the data to execute the piece of code(input)
+
+Act: execute the code being tested - behaviour
+
+Assert: check if the result (output) is what was exected
+
+
+The Cycle
+
+Write a unit test and make it fail
+
+Write the feature and make the test pass
+
+Refactor the code
+
+Run the tests again.
+
+Takeaways:
+
+Greatest advantage of TDD is to craft the software design first.
+
+Your code will be more reliable: after a change tests can be run in peace.
+
+Practice!
+
 [Recursion](https://www.geeksforgeeks.org/recursion/)
+
+
 
 ## Additional Resources
 
 ### Videos
 [What on Earth is Recursion](https://www.youtube.com/watch?v=Mv9NEXX1VHc)
+
+
+```
+factorial(n)= n*factorial
+factorial```
+
+
+```
+int factorial (int n)
+//recursive version
+{
+  if (n == 1) return 1;
+  else
+  return n*factorial(n-1)1;
+}
+```
+
+```
+<recursion>
+
+factorial 1
+  i am the number 1.
+factorial 2
+  wants factorial 1?
+factorial 3
+  wants factorial 2?
+factorial 4
+  wants factorial 3?
+main program 
+  wants factorial 4? = 24
+```
+
+In the pending multipliers each one was holding onto a different value of `n`.
+
 
 Optional [Python Modules and Packages Companion Video](https://realpython.com/courses/python-modules-packages/)
 
