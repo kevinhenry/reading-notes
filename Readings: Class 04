@@ -1,4 +1,4 @@
-Class 04: Readings: Topic
+# Class 4: Readings: Topic
 
 Below you will find some reading material, code samples, and some additional resources that support today’s topic and the upcoming lecture.
 
@@ -6,7 +6,189 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 ### Reading
 [Classes and Objects](https://www.learnpython.org/en/Classes_and_Objects)
+
+Objects contain variables and functions into a single entity. Objects get threir variables from classes. Clases are essentially a template to create your objects.
+
+```
+class MyClass:
+  variable = "blah"
+  
+  def function(self):
+    print("This is a message inside the class.")
+```
+
+
+"Self" as a parameter
+
+To assign the above class(template) to an object you would do the following:
+
+```
+class MyClass:
+  variable = "blah"
+  
+  def function(self):
+    print("This is a messge inside the class.")
+    
+mypobjectx = MyClass()
+```
+
+Above, the variable "myojectx" holds an object of the class "MyClass" that contains the variable and the function definded iwth the class called "MyClass:>
+
+
+### Accesing Object Variables
+To access the variable inside the newley created object "myobjectx" you would:
+
+```
+class MyClass:
+  vcariable = "blah"
+  
+  def function (self):
+    print("This is a message inside the clasee.")
+    
+myobjectx = MyClass()
+
+myobjectx.variable
+```
+
+
+### Accessing Object Functions
+To access a function inside of an object you can use notation similar to accessing a variable
+
+```
+class MyClass:
+  variable = "blah"
+  
+  def function(self):
+    print("This is a message inside the class.")
+
+myobjectx = MyClass()
+
+myobjectx.function()
+```
+
+
 [Thinking Recursively](https://realpython.com/python-thinking-recursively/)
+
+### Recursive Functions in Python
+Recursive function is a function defined in terms of itself via self-referential expressions.
+
+- The function will continue to call itself and repeat its behaviour until some condition is met to return a result. 
+- All recursive functions share a common structure made up of two parts: base case and recursive case.
+
+Example: Recursive function for calculating n!:
+
+1. Decompose the original problem into simpler instances of the same problem. This is the recursive case:
+
+```
+n! = n x (n-1) x (n-2) x (n-3) .... x 3 x 2 x 1
+n! = n x )n-1)!
+```
+
+2. As the large problem is broken down into less complex ones, those subproblems must eventually become so simple that they can be solved without further subdivision. This is the base case:
+
+```
+n! = n x (n-1)!
+n! = n x (n-1) x (n-2)!
+n! = n x (n-1) x (n-2) x (n-3)!
+.
+.
+n! = n x (n-1) x (n-2) x (n-3) .... x 3!
+n! = n x (n-1) x (n-2) x (n-3) .... x 3 x 2!
+n! = n x (n-1) x (n-2) x (n-3) .... x 3 x 2 x 1!
+```
+
+Here, 1 is our base case, and equals 1.
+
+Recursive fuction for calulating n! implemented in Python:
+
+```
+def factorial_recursive(n):
+  # Base case: 1! = 1
+  if n == 1:
+    return 1
+    
+  # Recursive case: n! = n * (n-1)!
+  else:
+    return n * factorial_recursive(n-1)
+```
+
+### Maintaining State
+Each recursive call has its own execution context, so to maintain state during recurion you have to either:
+
+- Thread the state through each recursive call sot hat the current state is part of the current call's execution context
+- Keep the state in global scope
+
+```
+def sum_recursive(current_number, accumulated_sum):
+  # Base case
+  # Return the finial state
+  if current_number == 11:
+    return accumulated_sum
+    
+  # Recursive case
+  # Thread the state through the recursive call
+  else:
+    return sum_recursive(current_number + 1, accumulated_sum + current_number
+```
+
+```
+# Pass the initial state
+>>> sum_recursive(1, 0)
+55
+```
+
+### Maitain state by keeping it in global scope:
+
+```
+# Global mutalble state
+current_number = 1
+accumulated_sum = 0
+
+def sum_recursive():
+  global current_number
+  global accumulated_sum
+  # Base case
+  if current_number == 11:
+    return accumulated_sum
+  # Recursive case
+  else:
+    accumulated_sum = accumulated_sum + current_number
+    current_number = current_number + 1
+    return sum_recursive()
+```
+
+```
+>>> sum_recursive()
+55
+```
+
+
+### Recursive Data Structures in Python
+A data structure in recusive if it can be defined in terms of a smaller version itself. A list is an example of a recursive data structure. 
+
+```
+# Return a new list that is the result of
+# adding an element tot he head )i.e. front) of input_list
+def attach_head(element, input_list):
+  return [element] + input_list
+```
+
+Using the empty list and the attach_head operations, you can generate any list.
+
+```
+atttach_head(1,
+             attach_head(46,
+                         attach_head(-31,
+                                     attach_head("hello", []))))
+```
+
+`# Will return [1, 46, -31, 'hello']`
+
+
+
+
+
+
 Optional: `Naive Recursion is Naive section and beyond`
 [Pytest Fixtures and Coverage](https://www.linuxjournal.com/content/python-testing-pytest-fixtures-and-coverage)
 
