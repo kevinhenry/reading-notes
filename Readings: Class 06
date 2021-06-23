@@ -1,23 +1,141 @@
-# Class 2 Readings: Testing and Modules
-
+# Class 6 Readings: Game of Greed 1
 Below you will find some reading material, code samples, and some additional resources that support today’s topic and the upcoming lecture.
 
 Review the Submission Instructions for guidance on completing and submitting this assignment.
 
-## Reading
-[In Tests We Trust - TDD with Python](https://code.likeagirl.io/in-tests-we-trust-tdd-with-python-af69f47e6932)
-[Recursion](https://www.geeksforgeeks.org/recursion/)
+### Reading
+[How to use Random Module](https://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python)
 
-## Additional Resources
+
+**Randint** - get a random integer. Randint function accepts two parameters: a lowest and a highest number. Generate integers between 1,5. The first value should be less than the second.
+
+```
+import random
+print random.randint(0, 5)
+```
+
+This will output either 0, 1, 2, 3, 4, or 5
+
+
+**Random** - get a larger number. You can muliply it.
+
+For Example, a random number between 0 and 100:
+
+```
+import random
+random.random() * 100
+```
+
+**Choice** - Generate a random value from the sequence sequence.
+
+```
+random.choice( ['red', 'black', 'green'] )
+```
+
+The choice function can often be used for choosing a random elelment from a list.
+
+```
+import random
+myList = [2, 109, False, 10, "Lorem", 482, "Ipsum"]random.choice(mylist)
+```
+
+**Shuffle** - The shuffle function, shuffles the elements in list in place, so they are in a random order.
+
+Example: random.shuffle(list) 
+
+```
+from random import shuffle
+x = [[i] for i in range(10)]
+shuffle(x)
+```
+
+```
+Output:
+# print x gives [[9], [2], [7], [0], [4], [5], [3], [1], [8], [6]]
+# of course your results will vary
+```
+
+**Randrange** - Generte a randomly selected element from range(start, stop, step)
+
+```
+random.randrange(start, stop[, step])
+
+import random
+for i in range(3):
+  print random.randrange(0, 101, 5)
+```
+
+Example:
+
+```
+import random
+import itertools
+
+outcomes = { 'heads':0,
+              'tails':0,
+            }
+sides = outcomes.keys()
+
+for i in range(10000):
+  outcomes[ random.choice(sides) ] += 1
+  
+print 'Heads:', outcomes['heads']
+print 'Tails:', outcomes['tails']
+```
+
+There are only two outcomes allowed, so rather than use nmbers and convert them, the words "heads" and "tails" are used with choice().
+
+The results are tabulated in a dictionary using the outcome names as keys.
+
+
+[What is Risk Analysis](https://www.edureka.co/blog/risk-analysis-in-software-testing/)
+
+**Risk Analysis** is the process of identifying risks in applications or software that you built and prioritizing them to test.
+
+  - After that, assigning a level of risk is done.
+  - Categoriztion of the risks / impact of risk calculated. 
+
+Risk analysis at the beginning of a project highlights the potential problem areas. It helps developers and managers mitigate risks.
+
+**Risk Identifcaiton:**
+- Business Risks
+- Testing Risks
+- Premature Release Risk
+- Software Risk
+
+
+**Three perspectives of Risk Assessment**
+- Effect
+- Cause
+- Likelyhood
+
+**How to perform RA?**
+- Searching the risk
+- Analyzing the impact of each individual risk
+- Measures for the risk identified
 
 ### Videos
-[What on Earth is Recursion](https://www.youtube.com/watch?v=Mv9NEXX1VHc)
+[Big O Notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 
-Optional [Python Modules and Packages Companion Video](https://realpython.com/courses/python-modules-packages/)
+Big O - How time scales with respect to some input vaiables.
+
+O(N)  Where N is the size of the array
+
+Big O tinmes do not use "N". It;s just a variable! Any letter will do.
+
+1. Different steps get added
+2. Drop constants
+3. Different inputs=> different variables
+4. Drop non-dominate terms
+
 
 ### Bookmark/Skim
-[Google for Education: Python Lists](https://developers.google.com/edu/python/lists)
-[Google for Education: Python Strings](https://developers.google.com/edu/python/strings)
-[Python Modules and Packages](https://realpython.com/python-modules-packages/)
-[Pytest Documentation](https://docs.pytest.org/en/latest/)
-[PyTest Tutorial Up to section](https://www.guru99.com/pytest-tutorial.html) `Running tests in parallel`
+
+[Python Random}(https://docs.python.org/3/library/random.html)
+
+
+### Additional Resources
+
+[What is Dependency Injection](https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/)
+
+We won’t be covering this concept in depth until following class but it’s a big concept and needs some time to settle in.
