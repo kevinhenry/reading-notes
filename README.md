@@ -44,7 +44,7 @@ I'm a developer.
 16. [Diversity & Inclusion in the Tech Industry](https://github.com/kevinhenry/reading-notes/blob/main/Read:%20Class%2014)
 
 
-**Code 201 - Foundations of Software Development**
+## **Code 201 - Foundations of Software Development**
 
 ## Table of Contents
 
